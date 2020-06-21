@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet"  href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h3>
+                The Cake Shop
+            </h3>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Cakes</a></li>
+            <li><a href="#">Cupcakes</a></li>
+            <li><a href="#">Order Online</a></li>
+            <li><a href="join.html">Join Class</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <br>
+    <br>
+<br>
+<div class="row">
+   
+    <img src="./img/f.jpg" alt="Me" class="c" style="display:block;margin:auto; margin-bottom:10px">
+</div>
+    <div class="row">
+        <div class="column">
+        <form action="#">
+            <div class="column">
+                <div class="container">
+                 
+                    <h4> For Billing Purpose</h4>
+                    <label for="fname"><i class="fa fa-user fa-2x"></i> Full Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Aditi Poudel">
+                    <label for="email"><i class="fa fa-envelope fa-2x"></i> Email</label>
+                    <input type="text" id="email" name="email fa-2x" placeholder="...@example.com">
+                    <label for="adr"><i class="fa fa-address-card-o fa-2x"></i> Address</label>
+                    <input type="text" id="adr" name="address" placeholder="Your local area address">
+                    <label for="city"><i class="fa fa-institution fa-2x"></i> City</label>
+                    <input type="text" id="city" name="city" placeholder="Chitwan">
+      </div>
+    </div>
+      <!--second  part-->
+      <div class="container">
+        <h2> For Payment </h2>
+        <label for="fname">Cards That Can be Used</label>
+        <div class="icon-container">
+          <i class="fa fa-cc-visa fa-2x" style="color:navy;"></i>
+          <i class="fa fa-cc-amex fa-2x" style="color:blue;"></i>
+          <i class="fa fa-cc-mastercard fa-2x" style="color:red;"></i>
+          <i class="fa fa-cc-discover fa-2x" style="color:orange;"></i>
+        </div>
+
+        <label for="cname">Name on Card</label>
+                    <input type="text" id="cname" name="cardname" placeholder="Aditi Poudel">
+                    <label for="ccnum">Credit card number</label>
+                    <input type="text" id="ccnum" name="cardnumber" placeholder="0000-1111-2222-3333">
+                    <label for="expmonth">Exp Month</label>
+                    <input type="text" id="expmonth" name="expmonth" placeholder="October">
+        
+                        <label for="expyear">Exp Year</label>
+                        <input type="text" id="expyear" name="expyear" placeholder="2022">
+                        <label for="coursetype">Choose Your Course</label>
+                      <select id="course" name="course">
+                        <option value="course">BEGINNERS CUPCAKE CLASS</option>
+                        <option value="course">CUPCAKES AND FLOWERS BOUQUET
+                        </option>
+                        <option value="course">BASIC FLAVORED BREAD/BAKERY</option>
+                        <option value="course">
+                          PRIVATE GUIDED CAKE CLASS
+                        </option>
+                      </select>
+
+                      <input type="checkbox" checked="checked" name="sameadr">
+                 Shipping address same as billing
+              
+                <button type="submit" class="button" 
+                value="Submit"> PLEASE CONTINUE TO CHECKOUT</button>
+            </div>
+        </form> 
+</div>
+</div>
+        
+
+<script src="app.js"></script>
+        </body>
+        </html>
